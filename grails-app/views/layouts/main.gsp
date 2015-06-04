@@ -15,6 +15,16 @@
   		<asset:stylesheet src="application.css"/>
 		<asset:javascript src="application.js"/>
 		<g:layoutHead/>
+		
+		<meta charset="utf-8">
+    	<link rel="stylesheet" href="css/onsen/onsenui.css">
+    	<link rel="stylesheet" href="css/onsen/onsen-css-components-blue-basic-theme.css">
+    	<link rel="stylesheet" href="css/list_thumbnails.css">
+    	<script src="js/onsen/js/angular/angular.js"></script>
+    	<script src="js/onsen/js/onsenui.js"></script>
+    	<script>
+      		ons.bootstrap();
+    	</script>
 	</head>
 	<body>
 		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>
