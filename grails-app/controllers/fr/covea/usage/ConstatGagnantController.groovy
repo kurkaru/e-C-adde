@@ -6,10 +6,10 @@ package fr.covea.usage
 class ConstatGagnantController {
 
 	/**
-	 * Affiche la première combinaison de question 
-	 * pour p permettre
+	 * Affiche la première page d'accueil avant de commencer son parcours
 	 */
     def index() { 
-			
+		
 	}
+	
 }
