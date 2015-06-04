@@ -5,9 +5,13 @@
     <link rel="stylesheet" href="/e-badde/css/onsen/onsenui.css">
     <link rel="stylesheet" href="/e-badde/css/onsen/onsen-css-components-blue-basic-theme.css">
     <link rel="stylesheet" href="/e-badde/css/toggle.css">
+    <link rel="stylesheet" href="/e-badde/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/e-badde/css/constatGagnant.css">
 
     <script src="/e-badde/js/onsen/js/angular/angular.js"></script>
     <script src="/e-badde/js/onsen/js/onsenui.js"></script>
+    <script src="/e-badde/js/jquery-2.1.4.min.js"></script>
+    <script src="/e-badde/js/bootstrap.min.js"></script>
     <script>
       ons.bootstrap();
     </script>
