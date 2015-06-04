@@ -1,7 +1,7 @@
 package fr.covea.usage
 /**
  * Controller gérant l'enchainement des questions
- * pour permettre la réalisation du 
+ * pour permettre la réalisation du constat 
  */
 class ConstatGagnantController {
 
