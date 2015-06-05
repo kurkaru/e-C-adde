@@ -19,30 +19,31 @@
 
   <body>
   	<ons-page>
-      <ons-toolbar>
-        <div class="center">e-cadde</div>
-      </ons-toolbar>
+      <g:render template="header"/>
       
       <ons-list modifier="inset" style="margin-top: 10px">
-      	<ons-list-item>
+      <ons-list-header>Mon sinistre impacte...</ons-list-header>
+      	<ons-list-item style="padding-left: 5px">
       		<ons-row>
         		<ons-col>
-        			<g:link action="questionLocataire"><div class="center"><img src="/e-badde/images/plomberie.png" class="thumbnail"></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/plomberie.png" class="thumbnail-big"><div>Canalisations</div></div></g:link>
+        			
         		</ons-col>
         		<ons-col>
-        			<g:link action="questionLocataire"><div class="center"><img src="/e-badde/images/machine-a-laver.jpg" class="thumbnail"></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/machine-a-laver.jpg" class="thumbnail-big"><div>Machine</div></div></g:link>
         		</ons-col>
       		</ons-row>
       		<ons-row>
         		<ons-col>
-        			<g:link action="questionLocataire"><div class="center"><img src="/e-badde/images/toit.png" class="thumbnail"></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/toit.png" class="thumbnail-big"><div>Toiture</div></div></g:link>
         		</ons-col>
         		<ons-col>
-        			<g:link action="questionLocataire"><div class="center">Autre... ></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin:20px">Autre... ></div></g:link>
         		</ons-col>
       		</ons-row>
       	</ons-list-item>
       </ons-list>
+      <g:render template="progressbar" model="['progress':40]"/>
      </ons-page>
  </body>
  </html>

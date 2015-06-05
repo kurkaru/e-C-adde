@@ -19,13 +19,12 @@
 
   <body>
   	<ons-page>
-      <ons-toolbar>
-        <div class="center">e-cadde</div>
-      </ons-toolbar>
+      <g:render template="header"/>
       
       <ons-list modifier="inset" style="margin-top: 10px">
+      <ons-list-header>J'ai constaté ce dégât le...</ons-list-header>
       	<ons-list-item>
-      		<input type="date" class="text-input text-input--transparent" placeholder="J'ai constaté ce dégat le" style="width: 100%">
+      		<input type="date" class="text-input text-input--transparent" placeholder="jj/mm/aaaa" style="width: 100%">
       	</ons-list-item>
       </ons-list>
       
@@ -37,13 +36,7 @@
         </g:link>
       </div>
       
-      <div class="tab-bar">
-	  <div class="progress" style="width:85%; margin:20px;">
-		  <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
-		    15%
-		  </div>
-		</div>
-	</div>
+      <g:render template="progressbar" model="['progress':20]"/>
     </ons-page>
   </body>
   </html>

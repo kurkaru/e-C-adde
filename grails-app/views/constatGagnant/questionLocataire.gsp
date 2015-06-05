@@ -19,6 +19,7 @@
 
   <body>
   	<ons-page>
+  	  <g:render template="header"/>
       <ons-list modifier="inset" class="settings-list">
         <ons-list-item>
           J'ai réalisé moi même mes peintures, papiers peints...
@@ -37,6 +38,7 @@
         </ons-button>
         </g:link>
       </div>
+      <g:render template="progressbar" model="['progress':60]"/>
     </ons-page>
   </body>
   </html>

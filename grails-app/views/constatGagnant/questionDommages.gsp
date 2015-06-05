@@ -19,6 +19,7 @@
 
   <body>
   	<ons-page>
+      <g:render template="header"/>
       <ons-list modifier="inset" class="settings-list">
         <ons-list-item>
           Mes papiers peints ou mes peintures ont été endommagées
@@ -55,7 +56,7 @@
 	      alert-dialog-button--primal" onclick="$('.alert-dialog-mask, .alert-dialog').hide()">OK</button>
 	  </div>
 	</div>
-      
+      <g:render template="progressbar" model="['progress':100]"/>
     </ons-page>
   </body>
   </html>

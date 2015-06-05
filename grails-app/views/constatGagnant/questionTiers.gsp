@@ -19,7 +19,10 @@
 
   <body>
   	<ons-page>
+  	  <g:render template="header"/>
       <ons-list modifier="inset" class="settings-list">
+      <ons-list-header>Informations concernant mon syndic... <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover"
+      data-placement="bottom" data-content="Son nom ainsi que ses coordonnées sont généralement affichés dans le hall de l'immeuble."></span></ons-list-header>
         <ons-list-item>
           <input type="text" class="text-input text-input--transparent" placeholder="Nom du syndic" style="width: 100%">
         </ons-list-item>
@@ -35,13 +38,24 @@
         	 <input type="text" class="text-input text-input--transparent" placeholder="Numéro de client" style="width: 100%">
         </ons-list-item>
       </ons-list>
+      
         <div style="padding: 10px 9px">
         <g:link action="questionDommages">
         <ons-button modifier="large" style="margin: 0 auto;">
-          Valider
+          Valider 
         </ons-button>
         </g:link>
+        
       </div>
+      
+      <g:render template="progressbar" model="['progress':80]"/>
+      
     </ons-page>
+    
+    <script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+    </script>
   </body>
   </html>

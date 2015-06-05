@@ -19,11 +19,11 @@
 
   <body>
     <ons-page>
-      <ons-toolbar>
-        <div class="center">e-cadde</div>
-      </ons-toolbar>
+      <g:render template="header"/>
 
       <ons-list>
+      
+      <ons-list-header>Je sélectionne mon habitation...</ons-list-header>
 
 		<g:link action='dateSinistre'>
 	        <ons-list-item modifier="chevron" class="list-item-container">
@@ -93,13 +93,7 @@
 	
 	</ons-list>
 	
-	<div class="tab-bar">
-	  <div class="progress" style="width:85%; margin:20px;">
-		  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-		    0%
-		  </div>
-		</div>
-	</div>
+	<g:render template="progressbar" model="['progress':0]"/>
 
     </ons-page>
 
