@@ -30,4 +30,8 @@ class ConstatGagnantController {
 	
 	def questionDommages() {
 	}
+	
+	def choixSupport() {
+        
+	}
 }

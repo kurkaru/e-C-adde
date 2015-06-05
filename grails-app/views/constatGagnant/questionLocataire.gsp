@@ -30,6 +30,10 @@
            J'ai prévu de quitter cet appartement prochainement
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>
+          <ons-list-item>
+           J'ai un logement meublé
+          <ons-switch modifier="list-item"></ons-switch>
+        </ons-list-item>
       </ons-list>
         <div style="padding: 10px 9px">
         <g:link action="questionTiers">

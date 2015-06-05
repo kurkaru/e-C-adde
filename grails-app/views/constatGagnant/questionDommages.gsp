@@ -22,7 +22,7 @@
       <g:render template="header"/>
       <ons-list modifier="inset" class="settings-list">
         <ons-list-item>
-          Mes papiers peints ou mes peintures ont été endommagées
+          Mes papiers peints ou mes peintures ont été endommagés
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>
 
@@ -52,9 +52,11 @@
 	  </div>
 	
 	  <div class="alert-dialog-footer">
+	 <g:link action="choixSupport">
 	    <button class="alert-dialog-button
-	      alert-dialog-button--primal" onclick="$('.alert-dialog-mask, .alert-dialog').hide()">OK</button>
+	      alert-dialog-button--primal" id="validation" onclick="$('.alert-dialog-mask, .alert-dialog').hide();">OK</button>
 	  </div>
+	  </g:link>
 	</div>
       <g:render template="progressbar" model="['progress':100]"/>
     </ons-page>
