@@ -8,6 +8,7 @@ import grails.converters.JSON
  */
 class ConstatGagnantController {
 
+  
 	/**
 	 * Affiche la première page d'accueil avant de commencer son parcours
 	 */
@@ -33,5 +34,8 @@ class ConstatGagnantController {
 	
 	def choixSupport() {
         
+	}
+	def sendMail() {
+        mailService.sendMail()
 	}
 }

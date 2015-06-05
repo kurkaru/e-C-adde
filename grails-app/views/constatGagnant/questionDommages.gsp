@@ -21,17 +21,17 @@
   	<ons-page>
       <g:render template="header"/>
       <ons-list modifier="inset" class="settings-list">
-        <ons-list-item style="padding-left:5px;">
+        <ons-list-item style="padding-left:5px;line-height:40px">
           Mes papiers peints ou mes peintures ont été endommagés
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>
 
-        <ons-list-item  style="padding-left:5px;">
+        <ons-list-item  style="padding-left:5px;padding-right:5px;line-height:40px">
            Mes revêtements lino ou moquette ont été endommagés
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>
         
-        <ons-list-item  style="padding-left:5px;">
+        <ons-list-item  style="padding-left:5px;line-height:30px">
            J'ai des dommages d'ordre immobilier (carrelage, parquet, plâtrerie)
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>

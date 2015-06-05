@@ -21,8 +21,8 @@
   	<ons-page>
   	  <g:render template="header"/>
       <ons-list modifier="inset" class="settings-list">
-      <ons-list-header>Informations concernant mon syndic... <span class="glyphicon glyphicon-question-sign" aria-hidden="true" data-toggle="popover"
-      data-placement="bottom" data-content="Son nom ainsi que ses coordonnées sont généralement affichés dans le hall de l'immeuble."></span></ons-list-header>
+      <ons-list-header><span data-toggle="popover"
+      data-placement="bottom" data-content="Son nom ainsi que ses coordonnées sont généralement affichés dans le hall de l'immeuble.">Informations concernant mon syndic... <span class="glyphicon glyphicon-question-sign" aria-hidden="true" ></span></span></ons-list-header>
         <ons-list-item>
           <input type="text" class="text-input text-input--transparent" placeholder="Nom du syndic" style="width: 100%">
         </ons-list-item>

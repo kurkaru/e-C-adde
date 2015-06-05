@@ -19,14 +19,14 @@
 
   <body>
     <ons-page>
-      <g:render template="header"/>
+        <g:render template="header"/>
 
       <ons-list>
       
       <ons-list-header>Je sélectionne mon habitation...</ons-list-header>
 
 		
-	        <ons-list-item modifier="chevron" class="list-item-container" style="padding-bottom:0px" ng-click="app.navi.pushPage('/e-badde/constatGagnant/dateSinistre')">
+	        <ons-list-item modifier="chevron" class="list-item-container" style="padding-bottom:0px">
 	          <ons-row>
 	            <ons-col width="95px">
 	              <img src="/e-badde/images/tivoli.png" class="thumbnail">
@@ -93,7 +93,7 @@
 	
 	<g:render template="progressbar" model="['progress':0]"/>
 	<script>$('.list-item-container').on('click', function(){
-	    /*window.location='/e-badde/constatGagnant/dateSinistre'*/
+        window.location='/e-badde/constatGagnant/dateSinistre'
 	});</script>
 
     </ons-page>
