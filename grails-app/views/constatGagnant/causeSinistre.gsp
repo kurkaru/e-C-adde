@@ -22,7 +22,7 @@
       <g:render template="header"/>
       
       <ons-list modifier="inset" style="margin-top: 10px">
-      <ons-list-header>Mon sinistre est causé par...</ons-list-header>
+      <ons-list-header>Mon sinistre est caus&eacute; par...</ons-list-header>
       	<ons-list-item style="padding-left: 5px">
       		<ons-row style="margin-left:5px">
         		<ons-col>
