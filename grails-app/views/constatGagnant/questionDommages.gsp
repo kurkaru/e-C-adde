@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -48,7 +48,7 @@
 
 	<div class="alert-dialog" style="display:none">
 	  <div class="alert-dialog-content">
-	    <p>Votre constat dégât des eaux est prêt</p>
+	    <p>Votre constat dégât des eaux est prêt...</p>
 	  </div>
 	
 	  <div class="alert-dialog-footer">
