@@ -21,17 +21,17 @@
   	<ons-page>
       <g:render template="header"/>
       <ons-list modifier="inset" class="settings-list">
-        <ons-list-item>
+        <ons-list-item style="padding-left:5px;">
           Mes papiers peints ou mes peintures ont été endommagés
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>
 
-        <ons-list-item>
+        <ons-list-item  style="padding-left:5px;">
            Mes revêtements lino ou moquette ont été endommagés
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>
         
-        <ons-list-item>
+        <ons-list-item  style="padding-left:5px;">
            J'ai des dommages d'ordre immobilier (carrelage, parquet, plâtrerie)
           <ons-switch modifier="list-item"></ons-switch>
         </ons-list-item>
@@ -48,7 +48,7 @@
 
 	<div class="alert-dialog" style="display:none">
 	  <div class="alert-dialog-content">
-	    <p>Votre constat dégât des eaux est prêt...</p>
+	    <p>Votre constat dégât des eaux est prêt</p>
 	  </div>
 	
 	  <div class="alert-dialog-footer">
