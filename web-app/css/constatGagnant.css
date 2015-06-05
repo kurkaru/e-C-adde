@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 a {
 	text-decoration: none;
 }
@@ -7,18 +6,6 @@ a:hover {
 	text-decoration: none;
 }
 
-legende {
+.legende {
 	font-size: 12px;
-=======
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-legende {
-	font-size: 12px;
->>>>>>> 48f2bf9b361f46bfc6f3ac8e9ead8acdd2ade44f
 }
