@@ -5,3 +5,7 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
+legende {
+	font-size: 12px;
+}

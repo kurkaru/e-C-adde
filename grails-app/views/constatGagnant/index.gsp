@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
   <head>
 	<meta charset="utf-8">
@@ -39,7 +39,7 @@
 	                <i class="fa fa-map-marker"></i> Paris, France
 	              </div>
 	              <div class="desc">
-	                Adresse...
+	                88 rue Saint Lazare, 75009 Paris
 	              </div>
 	            </ons-col>
 	            <ons-col width="40px"></ons-col>
@@ -55,13 +55,13 @@
             </ons-col>
             <ons-col>
               <div class="name">
-                Building
+                Mon appartement
               </div>
               <div class="location">
                 <i class="fa fa-map-marker"></i> Paris, France
               </div>
               <div class="desc">
-                Adresse...
+                33 rue de l'enchantement, 72000 Le Mans
               </div>
             </ons-col>
             <ons-col width="40px"></ons-col>
@@ -77,13 +77,13 @@
             </ons-col>
             <ons-col>
               <div class="name">
-                Campagne
+                Ma maison de campagne
               </div>
               <div class="location">
-                <i class="fa fa-map-marker"></i> Paris, France
+                <i class="fa fa-map-marker"></i> Niort, France
               </div>
               <div class="desc">
-                Adresse...
+                Maison bleue, 79000 Coulan
               </div>
             </ons-col>
             <ons-col width="40px"></ons-col>
