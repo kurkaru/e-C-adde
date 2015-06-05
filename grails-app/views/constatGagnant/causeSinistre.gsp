@@ -24,21 +24,21 @@
       <ons-list modifier="inset" style="margin-top: 10px">
       <ons-list-header>Mon sinistre impacte...</ons-list-header>
       	<ons-list-item style="padding-left: 5px">
-      		<ons-row>
+      		<ons-row style="margin-left:5px">
         		<ons-col>
-        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/plomberie.png" class="thumbnail-big"><div>Canalisations</div></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/plomberie.png" class="thumbnail-big"><div class="legende">mes canalisations</div></div></g:link>
         			
         		</ons-col>
         		<ons-col>
-        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/machine-a-laver.jpg" class="thumbnail-big"><div>Machine</div></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/machine-a-laver.jpg" class="thumbnail-big"><div class="legende">mes machines à eau</div></div></g:link>
         		</ons-col>
       		</ons-row>
-      		<ons-row>
+      		<ons-row style="margin-left:5px">
         		<ons-col>
-        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/toit.png" class="thumbnail-big"><div>Toiture</div></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin:20px"><img src="/e-badde/images/toit.png" class="thumbnail-big"><div class="legende">ma toiture</div></div></g:link>
         		</ons-col>
         		<ons-col>
-        			<g:link action="questionLocataire"><div style="margin:20px">Autre... ></div></g:link>
+        			<g:link action="questionLocataire"><div style="margin-top: 50px; margin-left:45px">Autre... ></div></g:link>
         		</ons-col>
       		</ons-row>
       	</ons-list-item>
